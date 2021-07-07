@@ -1,4 +1,4 @@
-FROM python:3.7.4-alpine3.10
+FROM python:3.8-alpine3.10
 
 EXPOSE 5000
 # Use shell-style CMD so that the image uses ["/bin/sh", "-c", "npm start"]
