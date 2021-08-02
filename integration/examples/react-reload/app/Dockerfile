@@ -1,4 +1,4 @@
-FROM node:12.16.0-alpine3.10
+FROM node:erbium-alpine3.10
 
 WORKDIR /app
 EXPOSE 8080
