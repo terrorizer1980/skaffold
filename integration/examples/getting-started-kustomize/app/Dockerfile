@@ -4,6 +4,6 @@ COPY main.go .
 ARG SKAFFOLD_GO_GCFLAGS
 RUN go build -gcflags="${SKAFFOLD_GO_GCFLAGS}" -o /app main.go
 
-FROM alpine:3.10
+FROM alpine:3.12.12
 CMD ["./app"]
 COPY --from=builder /app .
