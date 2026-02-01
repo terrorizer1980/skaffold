@@ -1,3 +1,3 @@
-FROM alpine:3.10
+FROM alpine:3.23.3
 COPY hello.txt .
 CMD ["./app"]
